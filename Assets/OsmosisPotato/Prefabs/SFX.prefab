@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1191574563185096535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5953527032180308523}
+  - component: {fileID: 3679346891586359545}
+  m_Layer: 0
+  m_Name: SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5953527032180308523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191574563185096535}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3679346891586359545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191574563185096535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c68c2012f7df46f99d01a3e637a009f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Osmosis.Sfx
+  sounds:
+  - name: click_s
+    clip: {fileID: 8300000, guid: de827f6cd5b100d48be993b11930ff78, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+  - name: inventory_s
+    clip: {fileID: 8300000, guid: 047ccedd31348984da7e2dc409444d87, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+  - name: snap_s
+    clip: {fileID: 8300000, guid: e93481ecca8255348916426fd8503907, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+  - name: correct_s
+    clip: {fileID: 8300000, guid: 3e83f1214e95b00419342c62b5dcc781, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: wrong_s
+    clip: {fileID: 8300000, guid: 2fb9eb57fd1ce7e4abed0119fc46ad9c, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+  - name: typing_s
+    clip: {fileID: 8300000, guid: 5e9ce5933ecc69445970196cca70e978, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+  - name: notification_s
+    clip: {fileID: 8300000, guid: 1fb71856ef46fcb49874a0b2c78e0286, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: clockTicking_s
+    clip: {fileID: 8300000, guid: fd3a62cc16677e145855064f4128afc8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+  - name: tap_s
+    clip: {fileID: 8300000, guid: d20ab868471f37e44bd0989f1cfdbae5, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - name: bg_s
+    clip: {fileID: 8300000, guid: 930f287d965f8b549ac0b5c39be1fcc0, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 1

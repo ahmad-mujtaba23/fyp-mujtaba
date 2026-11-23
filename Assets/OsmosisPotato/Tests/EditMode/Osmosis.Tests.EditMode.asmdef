@@ -1,0 +1,9 @@
+{
+    "name": "Osmosis.Tests.EditMode",
+    "references": ["Osmosis", "Osmosis.Editor", "UnityEngine.UI", "Unity.InputSystem", "Unity.RenderPipelines.Universal.Runtime", "UnityEngine.TestRunner", "UnityEditor.TestRunner"],
+    "includePlatforms": ["Editor"],
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll"],
+    "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+    "autoReferenced": false
+}
